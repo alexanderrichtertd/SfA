@@ -1,0 +1,15 @@
+/*********************************************************************
+/ content = Maya: save file
+/ date    = 2017-09-07
+/
+/ author  = Alexander Richter
+/ email   = pipeline@richteralexander.com
+/*********************************************************************
+
+
+// PATH: C:\Users\LOGIN_NAME\Documents\maya\VERSION\scripts
+
+global proc save_script() {
+    print("SAVED file MEL style\n");
+    file -rename "D:/test_mel.ma";
+    file -save -type "mayaAscii"; }

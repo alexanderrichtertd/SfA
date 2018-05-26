@@ -1,0 +1,27 @@
+//*********************************************************************
+// content = Maya: execute mel cmds
+// date    = 2017-09-07
+//
+// author  = Alexander Richter
+// email   = pipeline@richteralexander.com
+//*********************************************************************
+
+// MEL CODE
+
+// selection
+select -r pSphere3;
+select -replace pSphere2;
+select -add pSphere1;
+select -clear;
+
+
+// save file
+file -rename "D:/test.ma";
+file -save -type "mayaAscii";
+
+
+// save from external file
+// FILE LOCATION: C:\Users\LOGIN_NAME\Documents\maya\VERSION\scripts
+save_script();
+
+
