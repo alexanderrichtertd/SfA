@@ -1,6 +1,6 @@
 --*********************************************************************
 -- content = Max: examples
--- email    = pipeline@richteralexander.com
+-- email   = alexanderrichtertd@gmail.com
 --*********************************************************************
 
 -- OPEN file

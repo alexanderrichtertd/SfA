@@ -3,7 +3,7 @@
 # date    = 2017-09-07
 #
 # author  = Alexander Richter
-# email   = pipeline@richteralexander.com
+# email   = alexanderrichtertd@gmail.com
 #*********************************************************************
 
 # SCRIPT PATH: C:\Users\LOGIN_NAME\Documents\maya\VERSION\scripts
